@@ -17,7 +17,7 @@ int main(void)
     {
         if((!(PIND&(1<<PIND0))))
         {
-            if ((!(PIND&(PIND1))))
+            if ((!(PIND&(1<<PIND1))))
                 {
                        PORTB |=(1<<PB0);
                 }
